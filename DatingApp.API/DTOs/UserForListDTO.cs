@@ -20,7 +20,7 @@ namespace DatingApp.API.DTOs
 
         public string Country { get; set; }
 
-        public string PhotoURL { get; set; }
+        public string PhotoUrl { get; set; }
         
     }
 }

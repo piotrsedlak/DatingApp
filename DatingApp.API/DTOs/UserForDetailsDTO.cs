@@ -19,14 +19,20 @@ namespace DatingApp.API.DTOs
         public string KnownAs { get; set; }
 
         public DateTime Created { get; set; }
+
+        
         public DateTime LastActive { get; set; }
         public String Introduction { get; set; }
+
+        public string Interest { get; set; }
+
+        public String LookingFor { get; set; }
 
         public String City { get; set; }
 
         public String Country { get; set; }
 
-        public string PhotoURL { get; set; }
+        public string PhotoUrl { get; set; }
 
         public ICollection<PhotosForDetailsDTO> Photos { get; set; }
     }

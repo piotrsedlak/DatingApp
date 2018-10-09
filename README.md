@@ -1,7 +1,7 @@
 Dating Application developed using:
 
 C# / .Net Core 2.1 for backend
-Angular6 for frontend
+Angular 6 for frontend
 
 Includes:
 Registration
